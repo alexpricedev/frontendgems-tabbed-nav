@@ -1,0 +1,24 @@
+// ==============================================
+// Base styles: Background, typography etc.
+// ==============================================
+
+html, body {
+    @include clearfix();
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    min-height: 0;
+}
+
+body {
+    background: $white;
+    font-family: "HelveticaNeue-Light",
+                 "Helvetica Neue Light",
+                 "Helvetica Neue",
+                 Helvetica,
+                 Arial,
+                 "Lucida Grande",
+                 sans-serif;
+}

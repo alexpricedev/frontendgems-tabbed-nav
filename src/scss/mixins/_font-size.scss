@@ -1,0 +1,8 @@
+// ==============================================
+// rem font size and fallback mixin
+// ==============================================
+
+@mixin fontSize($size) {
+    font-size: $size;
+    font-size: rem($size);
+}

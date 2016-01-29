@@ -1,0 +1,31 @@
+{
+  "name": "FrontendGems_Boilerplate",
+  "version": "1.0.0",
+  "description": "The boilerplate project for FrontendGem components.",
+  "author": "Alex Price <hi@alexpriceonline.com>",
+  "contributors": [
+    {
+      "name": "Alex Price",
+      "email": "hi@alexpriceonline.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexpriceonline/frontendgems-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexpriceonline/frontendgems-boilerplate/issues"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "Javascript",
+    "Boilerplate",
+    "Frontend"
+  ],
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "license": "MIT"
+}

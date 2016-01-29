@@ -1,0 +1,11 @@
+// ==============================================
+// Tabbed navigation styles
+// ==============================================
+
+.js-tab {
+    display: none;
+}
+
+.js-tab.is-active {
+    display: block;
+}

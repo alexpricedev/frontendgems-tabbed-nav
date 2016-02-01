@@ -42,7 +42,7 @@ Open [http://localhost:8000](http://localhost:8000)
 ## Code standard
 
 FrontendGems are design to be the pinnacle of front-end development
-programming. This boilerplate (_as closely as possible_) follows the
+programming. This project (_as closely as possible_) follows the
 [Trello CSS guide](https://gist.github.com/bobbygrace/9e961e8982f42eb91b80).
 
 It also tries to keep all CSS attributes in alphabetical order with mixins

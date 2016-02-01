@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-    background: $white;
+    background: $bg-colour;
     font-family: "HelveticaNeue-Light",
                  "Helvetica Neue Light",
                  "Helvetica Neue",
@@ -21,4 +21,6 @@ body {
                  Arial,
                  "Lucida Grande",
                  sans-serif;
+    min-width: rem(320px);
+    padding: rem(50px $gutter);
 }

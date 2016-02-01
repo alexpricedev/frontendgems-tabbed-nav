@@ -1,0 +1,115 @@
+// ==============================================
+// Tabbed navigation styles
+// ==============================================
+
+
+.tabs {
+    margin: 0 auto;
+
+    @include break(large) {
+        width: rem(920px);
+    }
+}
+
+    .tabs-nav {
+        @include flexbox();
+        @include flex-wrap(wrap);
+    }
+
+        .tabs-nav-link {
+            @include flex(1 0 auto);
+            @include fontSize(15px);
+            @include transition(border-top 0.2s ease-in);
+            background: $tab-colour;
+            border-bottom: rem(1px) solid $bg-colour;
+            border-right: rem(1px) solid $bg-colour;
+            border-top: rem(4px) solid transparent;
+            color: $text-colour;
+            cursor: pointer;
+            display: block;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            min-width: calc(100% / 3);
+            padding: rem(35px 0 15px);
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+
+            &:last-of-type {
+                border-right: none;
+            }
+
+            @include break(small) {
+                min-width: auto;
+            }
+        }
+
+        .tabs-nav-link:focus,
+        .tabs-nav-link:hover {
+            border-top-color: $text-colour;
+        }
+
+        .tabs-nav-link.is-active {
+            background: $white;
+            border-bottom-color: transparent;
+            border-top-color: $highlight-colour;
+            color: $highlight-colour;
+        }
+
+        // Default settings
+        .tabs-nav-link::after {
+            @include fontSize(16px);
+            content: '\e804';
+            font-family: 'fontello';
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: rem(14px);
+        }
+
+        .tabs-nav-link.mod-contact::after {
+            content: '\e802';
+        }
+
+        .tabs-nav-link.mod-gateway::after {
+            content: '\e801';
+        }
+
+        .tabs-nav-link.mod-sso::after {
+            content: '\e800';
+        }
+
+        .tabs-nav-link.mod-billing::after {
+            content: '\e805';
+        }
+
+    .tabs-body {
+        background: $white;
+        border-bottom: rem(2px) solid $highlight-colour;
+        display: none;
+        padding: rem(40px 20px);
+    }
+
+    .tabs-body.is-active {
+        display: block;
+        text-align: center;
+    }
+
+        .tabs-body-heading {
+            @include fontSize(30px);
+            color: $text-colour;
+            margin: rem(0 0 10px);
+        }
+
+        .tabs-body-link {
+            @extend .tabs-body-heading;
+            @include fontSize(24px);
+            border-bottom: rem(2px) dashed $highlight-colour;
+            color: $highlight-colour;
+            text-decoration: none;
+        }
+
+        .tabs-body-link:focus,
+        .tabs-body-link:hover {
+            border-bottom-style: solid;
+        }

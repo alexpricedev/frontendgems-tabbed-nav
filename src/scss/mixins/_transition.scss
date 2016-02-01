@@ -1,0 +1,9 @@
+// ==============================================
+// CSS transition mixin
+// ==============================================
+
+@mixin transition($values: 0.3s ease-in) {
+    transition: $values;
+    -webkit-transition: $values;
+    -webkit-transform: translateZ(0); // Fix animation in Safari
+}

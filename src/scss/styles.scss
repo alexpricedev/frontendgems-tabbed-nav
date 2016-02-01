@@ -12,12 +12,15 @@
 // Mixin imports
 @import "mixins/break";
 @import "mixins/clearfix";
+@import "mixins/flexbox";
 @import "mixins/font-size";
 @import "mixins/rem";
+@import "mixins/transition";
 
 // Base imports
 @import "base/colours";
+@import "base/fonts";
 @import "base/global";
 
 // Module imports
-@import "modules/tabbed-nav";
+@import "modules/tabs";

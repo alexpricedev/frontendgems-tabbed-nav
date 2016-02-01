@@ -5,8 +5,8 @@
 var TabbedNav = (function() {
 
 	// Module variable decleration
-	var _$tab_nav_link = $('.js-tab-nav-link'),
-			_$tab = $('.js-tab'),
+	var _$tab_nav_link = $('.js-tabs-nav-link'),
+			_$tab = $('.js-tabs-body'),
 			_active_class = 'is-active';
 
 	// Click event handler for tab nav links.

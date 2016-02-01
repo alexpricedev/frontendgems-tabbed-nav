@@ -40,7 +40,7 @@
             }
 
             @include break(small) {
-                min-width: auto;
+                min-width: initial;
             }
         }
 

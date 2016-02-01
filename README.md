@@ -1,4 +1,4 @@
-# FrontendGems :: Project Boilerplate
+# FrontendGems :: Tabbed nav
 
 [FrontendGems](http://frontendgems.com/) is a collection of carefully crafted
 web components, forged by the world's finest frontend developers. It aims to
@@ -7,11 +7,11 @@ with the most elegant solution.
 
 -------------------------------
 
-This is the FrontendGems boilerplate project. All gem projects should be based
-off this repository.
+This is the FrontendGems tabbed nav project. Checkout the live version
+[here](http://alexpriceonline.github.io/frontendgems-tabbed-nav/).
 
-For more details about FrontendGems and this boilerplate, you can read the blog
-post about it [here](http://frontendgems.com/blog/html-css-boilerplate/).
+For more details about FrontendGems and this project, you can read the blog
+post about it [here](http://frontendgems.com/blog/).
 
 ## Installation
 
@@ -55,19 +55,15 @@ the bottom of the CSS block_.
 
 ## Change log
 
-* __13 Oct 15:__ Initial boilerplate setup
-* __20 Oct 15:__ Updated README
-* __22 Oct 15:__ Moved base module, removed FrontendGem chrome and added a link
-to the blog post
-* __29 Jan 16:__ Removed unnecessary code surrounding footer and logo
+* __1 Feb 16:__ Initial project markup, styles and SCSS
 
 ## Support
 
-Please [open an issue](https://github.com/alexpriceonline/frontendgems-boilerplate/issues/new)
+Please [open an issue](https://github.com/alexpriceonline/frontendgems-tabbed-nav/issues/new)
 if appropriate, or contact [Alex](http://twitter.com/alexpriceonline/) on
 Twitter.
 
 ## Contributing
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/).
-Create a branch, add commits, and [open a pull request](https://github.com/alexpriceonline/frontendgems-boilerplate/compare/).
+Create a branch, add commits, and [open a pull request](https://github.com/alexpriceonline/frontendgems-tabbed-nav/compare/).

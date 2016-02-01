@@ -17,11 +17,11 @@ post about it [here](http://frontendgems.com/blog/).
 
 Clone this repository:
 
-`git clone https://github.com/alexpriceonline/frontendgems-boilerplate.git`
+`git clone https://github.com/alexpriceonline/frontendgems-tabbed-nav.git`
 
 Open directory:
 
-`cd frontendgems-boilerplate`
+`cd frontendgems-tabbed-nav`
 
 Get the npm packages:
 

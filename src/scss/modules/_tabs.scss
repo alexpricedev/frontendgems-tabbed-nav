@@ -29,7 +29,7 @@
             display: block;
             font-family: 'Roboto', sans-serif;
             font-weight: 500;
-            min-width: calc(100% / 3);
+            width: calc(100% / 3);
             padding: rem(35px 0 15px);
             position: relative;
             text-align: center;
@@ -40,7 +40,7 @@
             }
 
             @include break(small) {
-                min-width: initial;
+                width: initial;
             }
         }
 

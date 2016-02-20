@@ -88,11 +88,11 @@
         border-bottom: rem(2px) solid $highlight-colour;
         display: none;
         padding: rem(40px 20px);
+        text-align: center;
     }
 
     .tabs-body.is-active {
         display: block;
-        text-align: center;
     }
 
         .tabs-body-heading {

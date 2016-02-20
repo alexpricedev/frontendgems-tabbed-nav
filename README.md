@@ -9,6 +9,8 @@ with the most elegant solution.
 
 This is the FrontendGems tabbed nav project.
 
+For more details about FrontendGems and this project, you can read the write up about it [here](http://frontendgems.com/gems/tabbed-nav/).
+
 ### Checkout the live version [here](http://alexpriceonline.github.io/frontendgems-tabbed-nav/).
 
 For more details about FrontendGems and this project, you can read the blog

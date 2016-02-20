@@ -7,8 +7,9 @@ with the most elegant solution.
 
 -------------------------------
 
-This is the FrontendGems tabbed nav project. Checkout the live version
-[here](http://alexpriceonline.github.io/frontendgems-tabbed-nav/).
+This is the FrontendGems tabbed nav project.
+
+### Checkout the live version [here](http://alexpriceonline.github.io/frontendgems-tabbed-nav/).
 
 For more details about FrontendGems and this project, you can read the blog
 post about it [here](http://frontendgems.com/blog/).
